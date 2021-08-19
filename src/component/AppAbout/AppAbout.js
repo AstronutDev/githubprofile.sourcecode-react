@@ -25,6 +25,10 @@ function AppAbout() {
                             <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Following new technology & new software</p>
                             <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Board game</p>
 
+                            <h2 className="h2-text">&nbsp; Interesting</h2>
+                            <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Web developemnt</p>
+                            <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Block chain & web3 technology</p>
+
                     </Col>
 
                     <Col>
