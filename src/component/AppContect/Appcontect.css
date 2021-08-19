@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Amagro";
+    src: url('../../font/Amagro-bold.ttf');
+}
+
+@font-face {
+    font-family: "Lato-Thin";
+    src: url('../../font/Lato-Thin.ttf');
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url('../../font/Lato-Bold.ttf');
+}
+
+
+
+
+.Appcontect-container {
+    padding-bottom: 10px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.h1-topic-contactme {
+    color: white;
+    height: 55px;
+    font-family: Lato-Bold;
+    background-color: #F2E1C1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.p-text-contact {
+    font-size: 20px;
+    color: #6cb6dd;
+    font-family: Lato;
+}

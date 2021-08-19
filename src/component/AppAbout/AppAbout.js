@@ -1,12 +1,16 @@
 import { Col, Container, Row } from 'react-bootstrap'
-import React, {useState}  from 'react'
+import React, {useEffect}  from 'react'
 import './AppAbout.css'
-
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function AppAbout() {
+    useEffect( () => {
+        Aos.init({duration: 2000})
+    }, [])
 
     return(
-        <>
+        <div data-aos="fade-left">
             <div className='appAbout-container'>
             <h1 className="h1-aboutme">&nbsp;About me 🙋🏻‍♂️</h1>
             <Container >
@@ -60,7 +64,7 @@ function AppAbout() {
                 </Row>
             </Container>
             </div>
-        </>
+        </div>
     )
 }
 

@@ -1,11 +1,19 @@
 import './AppContent.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Col, Carousel } from 'react-bootstrap';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import React, { useEffect} from 'react';
 
 function AppContent () {
+
+    useEffect( () => {
+        Aos.init({duration: 2000})
+    }, [])
+
     return(
         <>
-        <div className="AppContent-container">
+        <div data-aos="fade-left" className="AppContent-container">
             <h1 className="h1-text">&nbsp; My certificate 📜</h1>
       
                 <Carousel variant="dark">
