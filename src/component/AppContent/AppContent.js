@@ -6,7 +6,7 @@ function AppContent () {
     return(
         <>
         <div className="AppContent-container">
-            <h1 className="h1-text">My certificate 📜</h1>
+            <h1 className="h1-text">&nbsp; My certificate 📜</h1>
       
                 <Carousel variant="dark">
                     <Carousel.Item interval={5000}>

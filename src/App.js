@@ -4,17 +4,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AppHeader from './component/Appheader/AppHeader';
 import AppContent from './component/AppContent/AppContent';
 import AppWork from './component/AppWork/AppWork';
+import AppBottom from './component/AppBottom/AppBottom';
 
 function App() {
   return (
+    <>
     <div className="origin">
       <div className="App">
         <AppHeader />
         <AppAbout />
+        <br/><br/>
         <AppContent />
+        <br/><br/>
         <AppWork />
       </div>
     </div>
+    <br/>
+    <AppBottom/>
+    </>
   );
 }
 

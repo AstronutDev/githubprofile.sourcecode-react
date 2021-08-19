@@ -8,10 +8,11 @@ function AppAbout() {
     return(
         <>
             <div className='appAbout-container'>
+            <h1 className="h1-aboutme">&nbsp;About me 🙋🏻‍♂️</h1>
             <Container >
                 <Row>
                     <Col>
-                            <h1 className="h1-aboutme">About me 🙋🏻‍♂️</h1>
+                      
                             <h2 className="h2-text">&nbsp; Graduate</h2>
                             <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Bachelor Degrees at Prince of Songkla, Phuekt campus</p>
                             <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; GPA:3.23</p>
@@ -25,14 +26,13 @@ function AppAbout() {
                             <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Following new technology & new software</p>
                             <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Board game</p>
 
-                            <h2 className="h2-text">&nbsp; Interesting</h2>
+                            <h2 className="h2-text">&nbsp; Interested in</h2>
                             <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Web developemnt</p>
                             <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Block chain & web3 technology</p>
 
                     </Col>
 
                     <Col>
-                            <br/><br/>
                             <h2 className="h2-text">&nbsp; Language Skills</h2>
                             <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; Typescript, Javascript</p>
                             <p className="p-text"> &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; HTML, CSS</p>

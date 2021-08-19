@@ -5,7 +5,7 @@ function AppWork (){
     return (
         <>
             <div className="AppWork-container">
-                <h1 className="h1-topic">My Work 👨🏻‍💻</h1>
+                <h1 className="h1-topic">&nbsp; My Works 👨🏻‍💻</h1>
             </div>
 
             <Container>
@@ -23,7 +23,6 @@ function AppWork (){
                 </Row>
                 
             </Container>
-..
         </>
     )
 }

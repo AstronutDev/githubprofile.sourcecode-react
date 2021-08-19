@@ -4,20 +4,22 @@
 }
 
 .AppWork-container {
-    padding-top: 50px; 
-    padding-left: 20px;
+    padding-top: 0px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .h1-topic {
     font-family: Lato-Bold;
-    font-size: 40px;
-    color: orange;
+    font-size: i40px;
+    height: 50px;
+    color: white;
     font-family: Lato-Bold;
+    background-color: #f64f64;
+    border-radius: 10px;
 }
 
 .work-img{
-    /* width: 100%;
-    height: 350px; */
     width: 100%;
     height: 600px;
 }

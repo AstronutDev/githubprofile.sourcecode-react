@@ -1,8 +1,12 @@
 
 .h1-text {
-    color: orange;
     font-family: Lato-Bold;
     margin: 0;
+    color: white;
+    height: 55px;
+    background-color: #b8b5f3;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .manage-img {
@@ -16,6 +20,8 @@
 }
 
 .AppContent-container {
-    padding-top: 50px;
-    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

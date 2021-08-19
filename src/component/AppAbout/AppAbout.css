@@ -16,8 +16,13 @@
 
 
 .h1-aboutme {
-    color: orange;
+    color: white;
+    height: 55px;
     font-family: Lato-Bold;
+    background-image: linear-gradient(180deg,#80cbc8, #80cbc8);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
 }
 
 .h2-text {
@@ -33,12 +38,10 @@
 }
 
 .appAbout-container {
-    padding-left: 20px;
-    padding-top: 1px;
     padding-bottom: 10px;
     height: auto;
-    background-color: rgb(232, 238, 240);
     border-radius: 10px;
-
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* border: 0.5px solid rgba(0, 0, 0, 0.061) */
 }
 

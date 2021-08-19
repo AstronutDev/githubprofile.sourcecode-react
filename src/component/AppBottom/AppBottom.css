@@ -1,0 +1,13 @@
+.AppBottom-container {
+    height: auto;
+    background-color: rgb(54, 58, 70);
+    justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p-text-bottom{
+    padding: 50px;
+    color: white;
+}
