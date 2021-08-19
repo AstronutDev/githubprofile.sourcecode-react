@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Lato";
+    src: url('../../font/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Lato-Bold";
+    src: url('../../font/Lato-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Lato-Thin";
+    src: url('../../font/Lato-Thin.ttf');
+}
+
+
+
+.app-container {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    /* background-color: #6372d6; */
+    border-radius: 10px;
+}
+
+.profile-img {
+    padding-top: 30px;
+    width: 530px;
+    height: 550px;
+}
+
+.fullname {
+    color: rgb(0, 119, 255);
+    font-size: 80px;
+    font-weight: 200;
+    font-family: Lato-Thin;
+}
+
+.pContent {
+    font-size: 50px;
+    color: black;
+    font-family: Lato-Thin;
+}

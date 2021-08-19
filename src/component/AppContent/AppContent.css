@@ -1,0 +1,21 @@
+
+.h1-text {
+    color: orange;
+    font-family: Lato-Bold;
+    margin: 0;
+}
+
+.manage-img {
+    width: 100%;
+    height: 300px
+}
+
+.Carouselset {
+    margin: 0;
+    padding: 0;
+}
+
+.AppContent-container {
+    padding-top: 50px;
+    padding-left: 20px;
+}

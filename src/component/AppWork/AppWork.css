@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Lato-Bold";
+    src: url('../../font/Lato-Bold.ttf');
+}
+
+.AppWork-container {
+    padding-top: 50px; 
+    padding-left: 20px;
+}
+
+.h1-topic {
+    font-family: Lato-Bold;
+    font-size: 50px;
+    color: orange;
+    font-family: Lato-Bold;
+}
+
+.work-img{
+    /* width: 100%;
+    height: 350px; */
+    width: 100%;
+    height: 600px;
+}
